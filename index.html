@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Akhir Pembuatan Web</title>
+
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="shortcut icon" href="assets/images/Logo_UIN_Syarif_Hidayatullah_Jakarta.jpg">
+  </head>
+  <body>
+    <header>
+      <div class="juduldepan">
+        <h1>Universitas Islam Negeri Syarif Hidayatullah Jakarta</h1>
+        <p>
+          Universitas yang berasaskan Keislaman dan Nasionalisme yang berdiri dibawah naungan Kementrian Agama Republik Indonesia
+        </p>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#sejarah">Sejarah</a></li>
+          <li><a href="#fakultas">Fakultas</a></li>
+          <li><a href="#gedung">gedung</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="content">
+        <article class="card" id="sejarah">
+          <h2>Sejarah</h2>
+          <img class="featured-image" src="assets/images/Logo_UIN_Syarif_Hidayatullah_Jakarta.jpg" alt="sejarah" />
+          <p>
+            IAIN Syarif Hidayatullah Jakarta resmi menjadi UIN Syarif Hidayatullah Jakarta dengan terbitnya Keputusan Presiden RI No. 031 Tanggal 20 Mei 2002. Keppres itu menjadi landasan legalitas formal perubahan IAIN Syarif Hidayatullah Jakarta menjadi Universitas Islam Negeri Syarif Hidayatullah Jakarta.
+          </p>
+
+          <p>
+            Dengan perubahan ini UIN Syarif Hidayatullah Jakarta diharapkan dapat mendorong terjadinya integrasi keilmuan baik dalam bidang agama, kemanusiaan, keindonesiaan dengan tujuan menghasilkan lulusan yang memiliki wawasan integratif, adaptif, responsif dan inovatif terhadap pemikiran modern dan kemajuan ilmu pengetahuan dan teknologi di era globalisasi dengan landasan iman, ilmu dan amal yang menjadi dasar pijakan dalam pengembangan ilmu-ilmu Islam, baik ilmu-ilmu Qur’aniyah maupun ilmu-ilmu Kauniyah.
+          </p>
+        </article>
+
+        <article class="card" id="fakultas">
+          <h2>Fakultas</h2>
+          <img class="featured-image" src="assets/images/uin-jakarta.webp" alt="geografis" />
+          <p>
+            Universitas Islam Negeri Syarif Hidayatullah Jakarta terdiri dari 13 fakultas yaitu:
+          </p>
+          <p>
+            <ul>
+              <li>Ilmu Tarbiyah dan Keguruan</li>
+              <li>Adab dan Humaniora</li>
+              <li>Ushuluddin</li>
+              <li>Syariah dan Hukum</li>
+              <li>Dakwah dan Ilmu Komunikasi</li>
+              <li>Dirasat Islamiyah</li>
+              <li>Psikologi</li>
+              <li>Ekonomi dan Bisnis</li>
+              <li>Sains dan Teknologi</li>
+              <li>Ilmu Kesehatan</li>
+              <li>Ilmu Sosial dan Ilmu Politik</li>
+              <li>Kedokteran</li>
+              <li>Sekolah Pascasarjana</li>
+            </ul>
+          </p>
+        </article>
+
+        <article class="card" id="gedung">
+          <h2>Gedung</h2>
+          <p>
+            Terdapat beberapa gedung kampus yang letaknya terpisah yaitu: kampus 1, kampus 2, dan kampus 3.
+          </p>
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Alamat</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="https://goo.gl/maps/WrUBXYuT9Yk84t1s5">Kampus-1</a>
+              <a href="https://goo.gl/maps/7EXtLuSakS6Nx7Vn6">Kampus-2</a>
+              <a href="https://goo.gl/maps/iBdS2W67s2oYsHDr8">Kampus-3</a>
+            </div>
+          </div>
+          <div class="images-slideshow">
+            <div class="imageSlides fade">
+                <img src="assets/images/kampus-1.jpg">
+                <p>Kampus 1</p>
+            </div>
+            <div class="imageSlides fade">
+                <img src="assets/images/kampus-2.jfif">
+                <p>Kampus 2</p>
+            </div>
+            <div class="imageSlides fade">
+                <img src="assets/images/kampus-3.jpg">
+                <p>Kampus 3</p>
+            </div>
+            <a class="slider-btn previous" onclick="setSlides(-1)">❮</a>
+            <a class="slider-btn next" onclick="setSlides(1)">❯</a>
+          </div>
+        </article>
+      </div>
+
+      <aside>
+        <article class="card profile">
+          <header>
+            <h2>Profil Penulis</h2>
+            <p>Mahasiswa semester 8 jurusan Sistem Informasi</p>
+            <figure>
+              <img src="assets/images/pass_photo.jpg" alt="Bandung Badge" />
+            </figure>
+          </header>
+          <section>
+            <table>
+              <tr>
+                <th>Nama</th>
+                <td>Muhamad Farid</td>
+              </tr>
+              <tr>
+                <th>Umur</th>
+                <td>21 Tahun</td>
+              </tr>
+              <tr>
+                <th>Asal</th>
+                <td>Kota Bengkulu</td>
+              </tr>
+            </table>
+          </section>
+        </article>
+      </aside>
+    </main>
+
+    <footer>
+      <p>Muhamad Farid &#169;2023</p>
+    </footer>
+    <script src="assets/script/slider.js"></script>
+    <script src="assets/script/dropdown.js"></script>
+  </body>
+</html>
+
